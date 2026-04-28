@@ -10,6 +10,40 @@
   margin: 0 auto;
 }
 
+.buttons {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 180px;
+  align-items: center;
+}
+
+.button {
+  background-color: var(--btn-color-bg);
+  color: var(--btn-color-text);
+  padding: 26px;
+  border-radius: 5px;
+  width: 260px;
+  height: 88px;
+  font-size: 31px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease-in;
+}
+
+.button:first-child {
+  margin-right: 32px;
+}
+
+.button:hover {
+  border: 1px solid var(--btn-color-bg);
+  background-color: var(--btn-color-text);
+  color: var(--btn-color-bg);
+}
+
+/* Header */
 .main__header {
   background-color: var(--header-background);
   color: var(--white-text-color);
@@ -26,7 +60,7 @@
 .main__header-text {
   text-transform: uppercase;
   font-size: 19px;
-  margin: 30px 0 19px 160px;
+  margin: 30px 0 19px;
 }
 
 .user__actions {
@@ -49,11 +83,78 @@
   border-radius: 50%;
 }
 
-.user__action:nth-child(2) {
-  margin-right: 164px;
-}
-
 .user__action span {
   font-weight: bold;
   font-size: 12px;
 }
+/* /Header */
+
+/* Banner */
+.main__banner {
+  height: 793px;
+  background: url('../assets/images/banner-bg.png') no-repeat center/cover;
+  font-family: 'Montserrat';
+}
+
+.main__banner-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 58px;
+}
+
+.banner__image {
+  width: 167px;
+  background-color: var(--white-bg-color);
+}
+
+.menu__items {
+  display: flex;
+  gap: 35px;
+}
+
+.menu__item {
+  list-style-type: none;
+  margin-top: 55px;
+}
+
+.menu__item-link:hover {
+  border-bottom: 1px solid var(--navbar-hover-color);
+  color: var(--navbar-hover-color);
+}
+
+.menu__item-link {
+  text-decoration: none;
+  color: var(--navigation-color);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.banner__text {
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 94px;
+  letter-spacing: 1px;
+}
+
+.banner__title {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: var(--banner-title-color);
+}
+
+.banner__title span {
+  color: var(--banner-span-color);
+}
+
+.banner__description {
+  color: var(--banner-desc-color);
+  margin-top: 10px;
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 100;
+}
+/* /Banner */

@@ -2,4 +2,17 @@
   --header-background: #000000;
   --white-text-color: #ffffff;
   --white-bg-color: #ffffff;
+
+  --buttons-bg-color: #ce9b66;
+  --buttons-text-color: #ffffff;
+
+  --navigation-color: #ffffff;
+  --navbar-hover-color: #ffd700;
+
+  --banner-title-color: #ffd700;
+  --banner-span-color: #bd7e3b;
+  --banner-desc-color: #d9d9d9;
+
+  --btn-color-bg: #ce9b66;
+  --btn-color-text: #ffffff;
 }
