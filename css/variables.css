@@ -1,6 +1,10 @@
 :root {
+  --primary-bg-color: #1c3b3b;
+
   --header-background: #000000;
+
   --white-text-color: #ffffff;
+
   --white-bg-color: #ffffff;
 
   --buttons-bg-color: #ce9b66;
@@ -15,4 +19,11 @@
 
   --btn-color-bg: #ce9b66;
   --btn-color-text: #ffffff;
+
+  --primary-title-color: #ffffff;
+  --search-bar-color: #aaaaaa;
+  --menu-item-bg-color: #47d8d8;
+  --menu-item-title-color: #000000;
+
+  --menu-item-desc-color: #ffffff;
 }
