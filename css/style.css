@@ -192,7 +192,7 @@
   text-transform: uppercase;
 }
 
-.event-btn {
+.main__menu .event__btn {
   margin-top: 81px;
   padding: 19px;
   width: 200px;
@@ -200,7 +200,7 @@
   font-size: 24px;
   display: block;
   margin: auto;
-  border-radius: 0;
+  border-radius: 0cap;
   margin-bottom: 92px;
 }
 /* /Menu */
