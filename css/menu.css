@@ -1,107 +1,109 @@
 .grid__header .menu__header-title {
-  display: flex;
-  justify-content: center;
-  margin-top: 173px;
-  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 170px;
+  margin-bottom: 54px;
 }
 
 .items__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
-  padding: 20px;
   background-color: var(--grid-bg-color);
-  margin-top: 54px;
-  font-family: "Inter", sans-serif;
-}
+  padding: 50px 0;
+  min-height: 100vh;
 
-.grid__header {
-  grid-column: 1 / -1;
-  margin-bottom: 21px;
 }
-
-.grid__header-title {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--dark-text-color);
+.items__name-title {
   text-align: center;
+  color: var(--dark-text-color);
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
-.food__card {
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(217px, 1fr));
+  gap: 32px;
+}
+
+.food__item {
   background-color: var(--grid-item-bg-color);
+  width: 250px;
   padding: 20px;
   text-align: center;
-  width: 256px;
+  color: var(--white-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.image__wrapper {
+.image__container {
   position: relative;
-  width: 215px;
-  height: 215px;
-  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  margin-top: -50px; 
 }
 
-.food__card img {
+.item__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.price__badge {
+.price__icon {
   position: absolute;
-  bottom: 2px;
+  bottom: 10px;
   right: 0;
-  background-color: var(--dark-bg-color);
+  background: var(--dark-bg-color);
   color: var(--white-text-color);
-  width: 72px;
-  height: 72px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 24px;
-  font-weight: 700;
+  justify-content: center;
+  font-size: 14px;
 }
 
-.card__body {
-  position: relative;
-  top: -50px;
-  padding-top: 24px;
+.card__title {
+  margin: 15px 0 10px;
+  font-size: 24px;
+}
+
+.card__desc {
+  font-size: 20px;
   color: var(--grid-item-color);
-}
-
-.food__title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.food__info {
-  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+  min-height: 40px;
 }
 
 .read__more {
-  display: block;
   color: var(--white-text-color);
   text-decoration: none;
   font-weight: bold;
-  margin: 16px 0;
   font-size: 24px;
+  margin-top: 16px;
+  display: block;
 }
 
-.card__body .button {
-  border-radius: 0%;
+.button {
   width: 172px;
   height: 56px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0%;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateX(35px);
 }
 
-.card__body .button:hover {
+.button:hover {
+  width: 172px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
