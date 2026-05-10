@@ -43,13 +43,6 @@
   font-family: 'Inter', sans-serif;
 }
 
-.menu__header-title {
-  color: var(--primary-title-color);
-  font-weight: 700;
-  font-size: 45px;
-  text-transform: capitalize;
-}
-
 .menu__searchbar {
   background: transparent;
   border: 1px solid var(--search-bar-color);

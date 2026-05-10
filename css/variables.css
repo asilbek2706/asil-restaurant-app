@@ -8,6 +8,7 @@
   --white-bg-color: #ffffff;
 
   --dark-bg-color: #000000;
+  --dark-text-color: #000000;
 
   --buttons-bg-color: #ce9b66;
   --buttons-text-color: #ffffff;
@@ -28,4 +29,9 @@
   --menu-item-title-color: #000000;
 
   --menu-item-desc-color: #ffffff;
+  
+  --grid-bg-color: #47D8D8;
+  --grid-item-bg-color: #1C3B3B;
+  --grid-item-color: #ffffff;
+
 }
